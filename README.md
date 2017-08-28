@@ -14,9 +14,8 @@ ccc
 > rfrffrfefefjefie
 
 
-
 |不同点|appium_lib方法|selenium-webdriver方法|
-|-----|-------|-----|----|
+|--|--|--|--|
 |driver|Appium::Driver|Selenium::WebDriver|
 |id定位|elem = page.id('resource-id')|elem = page.find_element(id: 'resource-id')|
 |id|ids('resource-id')|find_elements(id: '')|
